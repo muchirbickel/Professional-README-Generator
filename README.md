@@ -29,5 +29,5 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 ## Mock-Up
-The following image shows the web application's appearance and functionality:
 click [muchirbickel](https://muchirbickel.github.io/Professional-README-Generator/) to visit repository.
+if you have any questions,please contact my email muchir99@gmail.com.
