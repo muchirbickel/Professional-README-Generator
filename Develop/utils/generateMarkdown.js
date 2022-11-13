@@ -6,7 +6,7 @@ const fs = require('fs');
 function renderLicenseBadge(license) {
   var badge;
   if(license == 'MIT'){
-    badge = '![GitHub](https://img.shields.io/github/license/SaadYousafi87/Node-CLI)';
+    badge = '![GitHub](https://img.shields.io/github/license/muchirbickel/Professional-README-Generator)';
   }else if(license == 'Apache 2'){
     badge = '![Apache 2](https://img.shields.io/github/hexpm/l/:packageName';
   }else if(license == 'GPL'){
@@ -29,7 +29,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   var str = data.contents.split(" ");
-  var username = `[${data.username}](https://github.com/SaadYousafi87)`;
+  var username = `[${data.username}](https://github.com/muchirbickel)`;
   var b = renderLicenseBadge(data.license);
   return `# ${data.title}\n
   ## Description\n
